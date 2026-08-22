@@ -26,11 +26,11 @@ Failed payments and abandoned transactions can result in significant revenue lea
 
 Traditional recovery processes can be:
 
-- ⏳ Slow
-- 🔁 Repetitive
-- 📊 Difficult to prioritize
-- 👤 Dependent on manual review
-- 💸 Inefficient for high-volume transactions
+* ⏳ Slow
+* 🔁 Repetitive
+* 📊 Difficult to prioritize
+* 👤 Dependent on manual review
+* 💸 Inefficient for high-volume transactions
 
 Businesses need a smarter way to identify which failed transactions are worth recovering and what action should be taken.
 
@@ -89,6 +89,10 @@ The system:
 │ Human Review / Escalate │
 │ When Required            │
 └─────────────────────────┘
+```
+
+---
+
 ## 🧠 Core Capabilities
 
 ### 🔍 Transaction Recovery Analysis
@@ -148,14 +152,14 @@ RecoverAI-Revenue-Recovery/
 
 ## 🛠️ Technology Stack
 
-- 🐍 Python
-- 📊 Pandas
-- 🔢 NumPy
-- 🎨 Streamlit
-- 🤖 AI / Agent-based recovery logic
-- 📁 CSV-based data storage
-- ☁️ Streamlit Cloud
-- 🐙 GitHub
+* 🐍 Python
+* 📊 Pandas
+* 🔢 NumPy
+* 🎨 Streamlit
+* 🤖 AI / Agent-based recovery logic
+* 📁 CSV-based data storage
+* ☁️ Streamlit Cloud
+* 🐙 GitHub
 
 ---
 
@@ -203,22 +207,27 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-The application will then open in your browser.
+---
+
+## 🌐 Live Demo
+
+🚀 [**Launch RecoverAI Dashboard**](https://recoverai-revenue-recovery.streamlit.app/)
+
+Try the deployed RecoverAI dashboard directly in your browser.
 
 ---
 
 ## ☁️ Deployment
 
-RecoverAI is designed to be deployed using Streamlit Cloud.
+RecoverAI is deployed using Streamlit Cloud.
 
 ### Deployment Steps
 
 1. Push the project to GitHub.
-2. Open Streamlit Cloud.
-3. Connect the GitHub repository.
-4. Select `app.py` as the main application file.
-5. Deploy the application.
-6. Use the generated public URL to access RecoverAI.
+2. Connect the GitHub repository to Streamlit Cloud.
+3. Select `app.py` as the main application file.
+4. Deploy the application.
+5. Access RecoverAI using the generated public URL.
 
 ---
 
@@ -265,12 +274,12 @@ Human Review When Required
 
 RecoverAI aims to help businesses:
 
-- 💰 Reduce revenue leakage from failed transactions
-- ⚡ Accelerate recovery decision-making
-- 📊 Prioritize high-value recovery opportunities
-- 🤖 Automate repetitive recovery analysis
-- 👨‍💼 Route appropriate cases to human reviewers
-- 📝 Maintain structured recovery records
+* 💰 Reduce revenue leakage from failed transactions
+* ⚡ Accelerate recovery decision-making
+* 📊 Prioritize high-value recovery opportunities
+* 🤖 Automate repetitive recovery analysis
+* 👨‍💼 Route appropriate cases to human reviewers
+* 📝 Maintain structured recovery records
 
 ---
 
@@ -286,14 +295,14 @@ Automated recommendations are intended to support decision-making rather than re
 
 Potential future enhancements include:
 
-- 🔌 Payment gateway integrations
-- 🤖 More advanced AI-based recovery agents
-- 📧 Automated customer communication
-- 📱 Multi-channel recovery workflows
-- 📈 Advanced recovery analytics
-- 🧪 A/B testing of recovery strategies
-- 🔄 Real-time transaction monitoring
-- 🗄️ Production database integration
+* 🔌 Payment gateway integrations
+* 🤖 More advanced AI-based recovery agents
+* 📧 Automated customer communication
+* 📱 Multi-channel recovery workflows
+* 📈 Advanced recovery analytics
+* 🧪 A/B testing of recovery strategies
+* 🔄 Real-time transaction monitoring
+* 🗄️ Production database integration
 
 ---
 
