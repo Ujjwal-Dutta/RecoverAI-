@@ -200,15 +200,14 @@ pip install -r requirements.txt
 ### 4️⃣ Run RecoverAI
 
 ```bash
-## 🌐 Live Demo
-
-🚀 **[Launch RecoverAI Dashboard](https://recoverai-revenue-recovery.streamlit.app)**
-
-Try the deployed RecoverAI dashboard directly in your browser.
-
-The application will then open in your browser.
+streamlit run app.py
 
 ---
+## 🌐 Live Demo
+
+🚀 **[Launch RecoverAI Dashboard](https://recoverai-revenue-recovery.streamlit.app/)**
+
+Try the deployed RecoverAI dashboard directly in your browser.
 
 ## ☁️ Deployment
 
