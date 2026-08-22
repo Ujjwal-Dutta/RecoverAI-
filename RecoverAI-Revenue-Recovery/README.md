@@ -200,8 +200,11 @@ pip install -r requirements.txt
 ### 4️⃣ Run RecoverAI
 
 ```bash
-streamlit run app.py
-```
+## 🌐 Live Demo
+
+🚀 **[Launch RecoverAI Dashboard](https://recoverai-revenue-recovery.streamlit.app)**
+
+Try the deployed RecoverAI dashboard directly in your browser.
 
 The application will then open in your browser.
 
@@ -209,17 +212,15 @@ The application will then open in your browser.
 
 ## ☁️ Deployment
 
-RecoverAI is designed to be deployed using Streamlit Cloud.
+RecoverAI is deployed using Streamlit Cloud.
 
 ### Deployment Steps
 
 1. Push the project to GitHub.
-2. Open Streamlit Cloud.
-3. Connect the GitHub repository.
-4. Select `app.py` as the main application file.
-5. Deploy the application.
-6. Use the generated public URL to access RecoverAI.
-
+2. Connect the GitHub repository to Streamlit Cloud.
+3. Select `app.py` as the main application file.
+4. Deploy the application.
+5. Access RecoverAI using the generated public URL.
 ---
 
 ## 🎥 Project Demonstration
