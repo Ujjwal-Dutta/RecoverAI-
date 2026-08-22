@@ -7,7 +7,7 @@ import os
 # Paths
 # --------------------------------------------------
 
-DATA_DIR = "/content/recoverai/data"
+DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 
 TRANSACTIONS_FILE = os.path.join(DATA_DIR, "transactions.csv")
 CUSTOMERS_FILE = os.path.join(DATA_DIR, "customers.csv")
