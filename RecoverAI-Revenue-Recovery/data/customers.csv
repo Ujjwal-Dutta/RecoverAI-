@@ -1,0 +1,6 @@
+customer_id,customer_name,successful_payments,failed_payments,lifetime_value
+CUS001,Rahul Sharma,7,1,18000
+CUS002,Aisha Khan,4,1,7500
+CUS003,Vikram Singh,12,3,42000
+CUS004,Sara Patel,5,0,12500
+CUS005,Arjun Mehta,9,1,29000

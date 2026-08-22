@@ -1,0 +1,6 @@
+transaction_id,customer_id,customer_name,amount,status,failure_reason,attempt_count
+TXN001,CUS001,Rahul Sharma,2499,failed,bank_declined,2
+TXN002,CUS002,Aisha Khan,999,failed,expired_card,1
+TXN003,CUS003,Vikram Singh,5999,failed,multiple_failures,3
+TXN004,CUS004,Sara Patel,1499,abandoned,checkout_abandoned,0
+TXN005,CUS005,Arjun Mehta,3999,failed,authentication_timeout,2

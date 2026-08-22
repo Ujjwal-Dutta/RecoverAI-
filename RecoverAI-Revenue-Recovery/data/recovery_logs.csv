@@ -1,0 +1,6 @@
+transaction_id,customer_id,amount,failure_reason,recommended_strategy,recovery_score,priority,reason,requires_human_approval,action,action_success
+TXN001,CUS001,2499,bank_declined,escalate_to_human,59,MEDIUM,"The payment has already been retried, so further automatic attempts should be avoided.",True,escalate_to_human,True
+TXN002,CUS002,999,expired_card,request_payment_method_update,40,MEDIUM,The customer's payment method has expired and should be updated before another attempt.,False,request_payment_method_update,True
+TXN003,CUS003,5999,multiple_failures,escalate_to_human,82,HIGH,"The payment has already been retried, so further automatic attempts should be avoided.",True,escalate_to_human,True
+TXN004,CUS004,1499,checkout_abandoned,send_recovery_message,50,MEDIUM,"The customer abandoned checkout, so a recovery message can encourage completion.",False,send_recovery_message,True
+TXN005,CUS005,3999,authentication_timeout,retry_payment,60,MEDIUM,"Authentication timed out, so a controlled retry may recover the payment.",False,retry_payment,True
